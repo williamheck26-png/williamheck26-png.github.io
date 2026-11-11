@@ -22,6 +22,6 @@ Project photos come from my supplied engineering portfolio. CAD previews come fr
 
 ## Updating
 
-Edit the HTML files to update project descriptions. Update `style.css` for shared design and `script.js` for filtering and motion playback. Replace `resume.pdf` to update the downloadable résumé. Keep project claims, image captions, and current status consistent.
+Edit the HTML files to update project descriptions. Update `styles.css` for shared design and `script.js` for filtering and motion playback. Replace `resume.pdf` to update the downloadable résumé. Keep project claims, image captions, and current status consistent.
 
 Personal project photographs and portfolio documents remain their owners’ work. No blanket redistribution license is granted for reference mechanism geometry or third-party research.
