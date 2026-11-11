@@ -1,0 +1,5 @@
+.experience{display:block}
+.experience .timeline{margin-top:42px}
+.experience .timeline article{padding:28px 0}
+.experience .timeline p{max-width:800px}
+@media(max-width:620px){.experience .timeline{margin-top:30px}.experience .timeline article{padding:24px 0}}
