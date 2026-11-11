@@ -10,8 +10,7 @@ Mechanical engineering student at the University of South Florida, Judy Genshaft
 | --- | --- | --- |
 | [Lower-limb exoskeleton](https://williamheck26-png.github.io/exoskeleton.html) | Mechanical integration, actuator packaging, adjustable rails | CAD development |
 | [Bionic arm & articulated hand](https://williamheck26-png.github.io/bionic-arm.html) | ABENICS-based shoulder, joint layout, passive hand | Movable CAD concept |
-| [2014 Subaru BRZ](https://williamheck26-png.github.io/subaru-brz.html) | Body repair, reassembly, drivetrain troubleshooting | Restoration work |
-| [2013 Dodge Dart](https://williamheck26-png.github.io/dodge-dart.html) | Diagnosis, parts sourcing, exterior restoration | Returned to drivable condition |
+| [Automotive restoration](https://williamheck26-png.github.io/automotive-restoration.html) | Subaru BRZ and Dodge Dart: repair, diagnosis, parts sourcing, and reassembly | Hands-on team projects |
 | [SoutheastCon robotics](https://williamheck26-png.github.io/southeastcon.html) | Motor research, drivetrain and mechanism concepts | Team development |
 
 ## About this site
