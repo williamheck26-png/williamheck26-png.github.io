@@ -1,0 +1,5 @@
+.project-visual.southeastcon{background:#e5e9ed}
+.project-visual.southeastcon img{object-fit:contain;padding:28px}
+.case-cover.southeastcon{background:transparent}
+.case-cover.southeastcon>img{height:440px;width:100%;object-fit:contain;padding:24px;background:#e5e9ed}
+@media(max-width:620px){.project-visual.southeastcon img{padding:24px}.case-cover.southeastcon>img{height:340px;padding:20px}}
