@@ -1,0 +1,10 @@
+.experience{display:block}
+.experience .timeline{margin-top:42px}
+.experience .timeline article{padding:28px 0}
+.experience .timeline p{max-width:800px}
+.experience .timeline article.with-logo{display:grid;grid-template-columns:minmax(0,1fr) 210px;gap:40px;align-items:center}
+.timeline-brand{justify-self:end;width:210px;padding:22px;display:flex;align-items:center;justify-content:center}
+.timeline-brand img{display:block;width:100%;height:auto;max-height:75px;object-fit:contain}
+.timeline-brand.usf-brand{background:#006747}
+.timeline-brand.ieee-brand img{max-width:150px}
+@media(max-width:620px){.experience .timeline{margin-top:30px}.experience .timeline article{padding:24px 0}.experience .timeline article.with-logo{grid-template-columns:minmax(0,1fr) 100px;gap:18px;align-items:start}.timeline-brand{width:100px;padding:12px;margin-top:24px}.timeline-brand.ieee-brand{padding:6px}.timeline-copy h3{font-size:21px}}
