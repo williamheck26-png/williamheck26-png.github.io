@@ -1,0 +1,17 @@
+.hero-banner{position:relative;margin:0;width:100%;background:var(--dark);overflow:hidden}
+.hero-banner>img{width:100%;height:clamp(350px,42vw,580px);object-fit:cover;object-position:50% 70%}
+.hero-banner>figcaption{position:absolute;left:5%;bottom:22px;background:#203735e8;color:#fff;padding:12px 15px;font-size:10px;letter-spacing:1px}
+.hero{display:block;min-height:0}
+.hero-copy{display:grid;grid-template-columns:1.2fr 1fr;column-gap:8%;padding:55px 0 60px}
+.hero-copy>.eyebrow{grid-column:1 / -1;margin-bottom:25px}
+.hero-copy>h1{grid-column:1;grid-row:2 / 4;font-size:clamp(46px,5.6vw,80px)}
+.hero-copy>.hero-intro{grid-column:2;grid-row:2;margin:0;max-width:470px;align-self:center;font-size:18px}
+.hero-copy>.actions{grid-column:2;grid-row:3;margin-top:28px;align-self:start;flex-wrap:wrap}
+@media(max-width:620px){
+ .hero-banner>img{height:300px;object-position:30% 65%}
+ .hero-banner>figcaption{bottom:14px;font-size:8px;padding:9px 11px}
+ .hero-copy{display:block;padding:35px 0 40px}
+ .hero-copy>h1{font-size:clamp(46px,11.2vw,68px)}
+ .hero-copy>.hero-intro{margin-top:24px;font-size:16px}
+ .hero-copy>.actions{margin-top:25px;gap:22px}
+}
