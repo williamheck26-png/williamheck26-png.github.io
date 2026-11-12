@@ -1,0 +1,132 @@
+:root{--paper:#fff;--ink:#183247;--muted:#526777;--line:#dbe3e9;--accent:#006747;--dark:#122d40;--soft:#f3f6f8}
+html{color-scheme:light;scroll-padding-top:88px}
+body{margin:0;max-width:none;background:#fff;color:var(--ink);font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,Arial,sans-serif}
+::selection{background:#c9e5d9}
+h1,h2,h3{font-family:inherit;font-weight:650;letter-spacing:-.025em;line-height:1.15}
+h1 em,h2 em{font-family:inherit;font-style:normal;font-weight:inherit;letter-spacing:inherit;color:var(--accent)}
+.eyebrow,.mono,.project-meta,.drawing-label,.intro-strip,.project-number,dt,.caption,figcaption,footer small{font-family:inherit;letter-spacing:.035em}
+.eyebrow{font-size:12px;font-weight:600;color:var(--muted);margin-bottom:22px}
+.signal{background:var(--accent)}
+a:focus-visible,button:focus-visible{outline:3px solid #2279ae;outline-offset:4px}
+.nav{height:80px;max-width:1200px;margin:0 auto;padding:0 32px;border-bottom:0}
+.brand{font-size:25px;font-weight:750;letter-spacing:-1px}
+.nav nav{font-size:14px;gap:30px;font-weight:500}
+.nav-contact{border:1px solid #b8c8d3;border-radius:6px;padding:10px 14px}
+.nav-contact span{padding-left:12px}
+.hero-banner>img{height:clamp(300px,35vw,450px)}
+.hero-banner>figcaption{background:#122d40e8;border-radius:4px;font-size:11px;font-weight:600;letter-spacing:.04em}
+.hero{max-width:1200px;min-height:0;margin:0 auto;padding:0 32px}
+.hero-copy{column-gap:72px;padding:54px 0 58px;grid-template-columns:1fr 1fr}
+.hero-identity>h1{font-size:clamp(38px,4.5vw,56px);line-height:1.13;font-weight:650}
+.hero-summary>.hero-intro{font-size:18px;line-height:1.65;color:var(--muted)}
+.hero-summary>.actions{gap:22px;margin-top:26px}
+.button{background:var(--ink);border-color:var(--ink);border-radius:6px;padding:14px 18px;font-size:14px;font-weight:600;gap:24px;transition:background .15s}
+.button:hover{background:#244d67;transform:none}
+.text-link{font-size:14px;color:#205d7f;border-color:#b8cbd7;font-weight:500}
+.hero-identity>.linkedin-card{border-color:var(--line);border-radius:8px;box-shadow:none;margin-top:22px}
+.linkedin-card h2{font-family:inherit;font-size:22px;color:var(--ink);font-weight:650;letter-spacing:-.025em}
+.linkedin-connect{font-family:inherit;font-weight:600}
+.intro-strip{background:var(--soft);font-size:12px;letter-spacing:.025em;font-weight:500;padding:18px max(32px,calc((100vw - 1136px)/2));border-color:var(--line);gap:16px 24px}
+.intro-strip a{font-weight:650}
+.section{padding:72px max(32px,calc((100vw - 1136px)/2))}
+.section-top{gap:48px;margin-bottom:32px;align-items:center}
+h2,.section-top h2,.about h2,.experience h2{font-size:36px;line-height:1.18}
+.section-top>p{font-size:15px;max-width:430px;line-height:1.65}
+.work{background:var(--soft)}
+.project-grid{gap:44px 32px}
+.project-visual{border:1px solid var(--line);border-radius:7px;background:#fff}
+.project-visual img{transition:none}
+.project-visual:hover img{transform:none}
+.project-number{display:none}
+.round-arrow{background:#fff;border:1px solid var(--line);color:var(--ink);height:38px;width:38px;right:16px;bottom:16px;font-size:18px}
+.watch-motion{font:600 12px 'Segoe UI',Arial,sans-serif;letter-spacing:0;background:#183247ed;border-radius:4px;padding:10px 12px}
+.project-preview .watch-motion{font-size:12px;padding:10px 12px}
+.preview-toggle{font:500 12px 'Segoe UI',Arial,sans-serif;background:#fff;color:var(--ink);border-color:var(--line);border-radius:4px;padding:9px 12px}
+.project-meta{display:block;font-size:11px;font-weight:600;letter-spacing:.025em;line-height:1.5;margin:18px 0 9px}
+.project-meta span:last-child{display:block;text-align:left;margin-top:4px;color:var(--accent);font-size:12px;font-weight:600;letter-spacing:0}
+.project h3{font-size:24px;font-weight:650;letter-spacing:-.025em}
+.project>p{font-size:15px;line-height:1.65;margin-top:11px;max-width:none}
+.about{background:#fff;color:var(--ink);gap:40px 64px}
+.about .eyebrow,.skills .mono{color:var(--muted)}
+.about h2 em{color:var(--accent)}
+.about-copy p,.skills p{color:var(--muted);font-size:15px;line-height:1.65}
+.about-copy .large-copy{color:var(--ink);font-size:23px;line-height:1.45;font-weight:550;letter-spacing:-.015em}
+.skills{border-color:var(--line);gap:36px;padding-top:30px}
+.skills .mono{font-size:11px;font-weight:600}
+.skills h3{font-size:19px;font-weight:650;letter-spacing:-.015em;margin:14px 0}
+.skills p{font-size:14px}
+.presenting-photo img{border-radius:6px}
+.presenting-photo figcaption{color:var(--muted);font-size:12px;letter-spacing:0}
+.experience{background:#f7f9fb;border-color:var(--line)}
+.timeline h3{font-size:22px;font-weight:650;letter-spacing:-.02em}
+.timeline .mono{font-size:12px;font-weight:600;color:var(--accent);letter-spacing:.025em}
+.timeline p{font-size:15px;line-height:1.65}
+.timeline-brand.usf-brand{border-radius:4px}
+.contact{background:var(--dark);background-image:none;color:#fff}
+.contact .eyebrow{color:#b8ccd9}
+.contact h2{font-size:44px;color:#fff;line-height:1.15}
+.contact h2 em{color:#a4d7bd}
+.contact>p:not(.eyebrow){color:#d2dfe7;font-size:16px}
+.email-link{font-size:30px;color:#fff;border-color:#6c8b9f;letter-spacing:-.02em;gap:36px}
+.email-link span{color:#a4d7bd}
+.contact-links{font-size:14px;gap:28px;color:#e2ebf1}
+.contact-links a:hover{text-decoration:underline}
+footer{max-width:1200px;margin:0 auto;padding:32px;border:0;gap:24px}
+footer p,footer>div,footer small{font-size:12px;color:var(--muted);letter-spacing:0}
+.case{max-width:1200px;margin:0 auto;padding:32px 32px 0}
+.back-link{font-size:14px;color:#205d7f;font-weight:500}
+.case-heading{padding:44px 0 32px;max-width:none}
+.case-heading h1{font-size:clamp(36px,4.7vw,56px);line-height:1.15;max-width:1000px;font-weight:650}
+.case-intro{font-size:18px;line-height:1.65;max-width:850px;margin-top:22px}
+.case-facts{background:var(--soft);border:1px solid var(--line);border-radius:6px;padding:20px;margin-top:28px;gap:24px}
+dt{font-size:11px;font-weight:650;color:var(--muted);letter-spacing:.025em}
+dd{font-size:14px}
+figcaption{font-size:12px;letter-spacing:0;color:var(--muted)}
+.case-cover{border-radius:6px;overflow:hidden}
+.case-cover>img{mix-blend-mode:normal}
+.case-cover figcaption{background:#fff}
+.project-videos{padding:32px 0 36px;border-color:var(--line)}
+.project-videos h2{font-size:30px;line-height:1.2;margin-bottom:24px}
+.video-grid{gap:30px}
+.video-card{border-color:var(--line);border-radius:6px;overflow:hidden;background:#fff}
+.video-card video{background:#eef3f7}
+.video-card figcaption{background:#fff;padding:20px}
+.video-card h3{font:650 21px/1.25 'Segoe UI',Arial,sans-serif;letter-spacing:-.02em;margin:0}
+.cad-board{background:var(--soft);border-color:var(--line);border-radius:6px;overflow:hidden}
+.cad-board-heading{font:600 12px/1.4 'Segoe UI',Arial,sans-serif;letter-spacing:.025em;border-color:var(--line);background:#f3f6f8}
+.cad-view>span{background:#ffffffed;border:1px solid var(--line);border-radius:4px;font:500 12px/1.4 'Segoe UI',Arial,sans-serif}
+.cad-full,.cad-detail{border-color:var(--line)}
+.case-content{margin:48px auto;max-width:1000px}
+.case-content>section{border-color:var(--line);gap:24px 44px}
+.case-content h2{font-size:23px;line-height:1.25;letter-spacing:-.02em}
+.case-content p{font-size:15px;line-height:1.75}
+.case-content>.vehicle-section h2{font-size:29px}
+.knee-development h2,.current-study-title h2,.team-story h2,.presentation-story h2{font-size:30px;line-height:1.2;letter-spacing:-.025em}
+.knee-gallery figcaption,.car-cover figcaption,.compare figcaption{font-size:12px}
+.development-notes summary{font-size:18px;font-weight:550;letter-spacing:-.01em}
+.development-notes details p{font-size:15px;line-height:1.7}
+.presentation-story>div>p:not(.eyebrow),.team-story>div>p:not(.eyebrow){font-size:15px;line-height:1.7}
+.case-end{padding:32px 0 50px;border-color:var(--line)}
+.case-end p{font-size:18px;font-weight:550}
+.image-viewer{border-radius:6px;background:#f3f6f8;border-color:var(--line)}
+.image-viewer::backdrop{background:#102739d9;backdrop-filter:none}
+.viewer-toolbar p{font:500 13px/1.4 'Segoe UI',Arial,sans-serif}
+.viewer-controls button{font-size:13px;border-color:var(--line);border-radius:4px;background:#fff}
+@media(max-width:900px){.hero-copy{column-gap:40px}.hero-identity>h1{font-size:44px}.hero-summary>.hero-intro{font-size:17px}.about{gap:32px 40px}.project h3{font-size:23px}}
+@media(max-width:620px){
+ .nav{height:72px;padding:0 20px}.nav nav{font-size:13px;gap:18px}.brand{font-size:23px}
+ .hero-banner>img{height:280px}.hero-banner>figcaption{font-size:10px;bottom:14px;left:20px}
+ .hero{padding:0 20px}.hero-copy{padding:34px 0 40px}.hero .eyebrow{font-size:11px}
+ .hero-identity>h1{font-size:42px;line-height:1.12}.hero-summary{margin-top:26px}.hero-summary>.hero-intro{font-size:16px}.hero-summary>.actions{margin-top:22px;gap:20px}
+ .button{font-size:14px;padding:13px 16px}.text-link{font-size:14px}.hero-identity>.linkedin-card{margin-top:22px}
+ .intro-strip{padding:18px 20px;font-size:11px;gap:18px;line-height:1.6}
+ .section{padding:48px 20px}.section-top{margin-bottom:28px}.section-top>p{font-size:15px;margin-top:18px}
+ h2,.section-top h2,.about h2,.experience h2{font-size:30px}.project-grid{gap:34px}.project h3{font-size:23px}.project>p{font-size:15px}
+ .project-meta{font-size:11px}.project-meta span:last-child{font-size:12px}.project-preview .watch-motion{font-size:11px;padding:9px 11px}.preview-toggle{font-size:11px}
+ .about{display:block}.about .about-copy{padding-top:28px}.about-copy .large-copy{font-size:21px}.about-copy p{font-size:15px}.skills h3{font-size:19px}.presenting-photo{margin-top:26px}
+ .contact h2{font-size:34px}.email-link{font-size:26px;gap:24px}.contact>p:not(.eyebrow){font-size:15px}.contact-links{font-size:14px;gap:24px}
+ footer{padding:28px 20px}.case{padding:24px 20px 0}.case-heading{padding:32px 0 28px}.case-heading h1{font-size:36px}.case-intro{font-size:17px;margin-top:20px}.case-facts{padding:18px;gap:20px}
+ .project-videos h2{font-size:27px}.video-card h3{font-size:20px}.video-card figcaption{padding:17px}.knee-development h2,.current-study-title h2,.team-story h2,.presentation-story h2{font-size:28px}
+ .cad-board-heading{font-size:10px}.cad-view>span{font-size:11px}.case-content{margin:32px auto}.case-content h2{font-size:23px}.case-content p{font-size:15px}.case-content>.vehicle-section h2{font-size:27px}
+ .viewer-toolbar p{font-size:12px;max-width:220px}.viewer-controls button{font-size:12px}.case-end p{font-size:18px}
+}
